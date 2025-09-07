@@ -9,33 +9,10 @@ const Navbar = () => {
         
         {/* Logo */}
         <div className="flex items-center space-x-2 cursor-pointer">
-          <img src={logo} alt="Logo" className="h-10 w-auto" />
+          <img src={logo} alt="Logo" className="h-10 w-10 rounded-full object-cover" />
           <span className="text-2xl font-extrabold text-orange-600 tracking-wide">
             Sahil <span className="text-black">Khan</span>  
           </span>
-        </div>
-
-        {/* Nav Links */}
-        <div className="hidden md:flex items-center space-x-8 font-medium text-gray-800">
-          <a href="#home" className="text-orange-600">Home</a>
-          <a href="#resume" className="hover:text-orange-600">Resume</a>
-
-          <div className="flex items-center space-x-1 hover:text-orange-600 cursor-pointer">
-            <span>Service</span>
-            <ChevronDown size={16} />
-          </div>
-
-          <div className="flex items-center space-x-1 hover:text-orange-600 cursor-pointer">
-            <span>Portfolio</span>
-            <ChevronDown size={16} />
-          </div>
-
-          <div className="flex items-center space-x-1 hover:text-orange-600 cursor-pointer">
-            <span>Blogs</span>
-            <ChevronDown size={16} />
-          </div>
-
-          <a href="#contact" className="hover:text-orange-600">Contact</a>
         </div>
 
         {/* Button */}

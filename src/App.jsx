@@ -4,6 +4,7 @@ import Herosection from './Components/Herosection/Herosection'
 import Aboutme from './Components/Aboutme/Aboutme'
 import Aboutcihs from './Components/Aboutcihs/Aboutcihs'
 import Footer from './Components/footer/Footer'
+import Collab from './Components/Collab/Collab'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Herosection/>
       <Aboutme/>
       <Aboutcihs/>
+      <Collab/>
       <Footer/>
     </div>
   )
